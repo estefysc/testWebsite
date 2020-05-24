@@ -1,0 +1,36 @@
+/* Tag selectors*/
+
+body {
+    color: black;
+    background-color: gray;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Baskervville', serif;
+    font-size: 21px;
+    text-align: center;
+}
+
+main {
+    /* Default position = static. */
+    display: block;
+    border-radius: 20px;
+    max-width: 1200px;
+    min-width: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 380px;
+    height: auto;
+    padding: 1px 12px 7px 12px;
+    background-color: cadetblue;
+}
+/* REMEMBER: The difference between an ID and a class is that an ID can be used to identify one element, whereas a class can be used to identify more than one.*/
+/* ID selectors start with #*/

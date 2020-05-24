@@ -1,0 +1,99 @@
+/* clear: both; ---> pushes a <div> to the bottom of the page. */
+
+/* Tag Selectors*/
+
+body {
+    background-color: black;
+    background-image: url("images/guitar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0px;
+    min-height: 40px;
+    font-size: 58px;
+    background-color: cadetblue;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    margin-top: 0px;
+    margin-bottom: auto;
+    min-height: 40px;
+    font-size: 33px;
+    background-color: cadetblue;
+}
+
+ul {
+    font-family: 'Baskervville', serif;
+    padding: 0%;
+    margin: auto;
+    font-size: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    /* Default position = static. */
+    float: right;
+    display: none;
+    border-radius: 20px;
+    max-width: 1200px;
+    min-width: 500px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-height: 380px;
+    height: auto;
+    padding: 1px 12px 7px 12px;
+    background-color: cadetblue;
+}
+
+div p {
+    font-family: 'Baskervville', serif;
+    font-size: 21px;
+    text-align: center;
+}
+
+/* ID Selectors*/
+
+#navigation {
+    background-color: grey;
+    min-width: 10px;
+    max-width: 410px;
+    min-height: 180px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#navigation a {
+    text-decoration: none;
+    display: block;
+    background-color: grey;
+    color: black;
+}
+
+#navigation a:hover {
+    display: block;
+    background-color: white;
+    color: grey;
+}
+
+#bioTitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+    text-align: center;
+}
